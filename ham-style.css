@@ -1,0 +1,309 @@
+@charset "utf-8";
+/* CSS Document */
+.bg-trang-70 {background-color: rgba(255,255,255,0.5)}
+#hero
+{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-image: url("images/welcome_grunge_shape-min 1.png");
+	background-repeat: no-repeat;
+	background-position: left bottom
+}
+#welcome
+{
+	background-image: url( "images/welcome_image1-min 1.png"),url("images/welcome_image2-min 1.png");
+	background-repeat: no-repeat, no-repeat;
+	background-position: left center, right center;	
+}
+#danhgia
+{
+	background-image: url("images/testimonial_image-min 1.png");
+	background-repeat: no-repeat;
+	background-position: left center
+ 
+}
+@media (max-width:900px)
+{
+#welcome
+	{
+		background-position: left center, right bottom;	
+		background-size:20%,50%;
+		background-color:rgba(255,255,255,0.5)
+	}
+}
+@media (max-width:1200px)
+{
+#welcome
+	{
+		background-size:20%,50%;
+		background-color: rgba(255,255,255,0.5)
+	}
+}
+@media (max-width:900px)
+{
+#delivery
+	{
+		background-position: left bottom,right center;	
+		background-size:50%,cover;
+		background-color:rgba(255,255,255,0.5)
+	}
+}
+@media (max-width:900px)
+{
+#delivery
+	{
+		background-position: left bottom,right center;	
+		background-size:50%,cover;
+		background-color:rgba(255,255,255,0.5)
+	}
+}
+@media (max-width:1200px)
+{
+#delivery
+	{
+		background-size:50%,cover;
+		background-color: rgba(255,255,255,0.5)
+	}
+}
+@media (max-width:600px)
+{
+#delivery
+	{
+			background-size:30%,cover;
+		background-color: rgba(255,255,255,0.5)
+	}
+}
+@media (max-width:1000px)
+{
+	#thanhphan
+	{
+		background-size: 35%,cover;
+		background-position: center 35%,left top
+	}
+}
+@media (max-width:600px)
+{
+	#thanhphan
+	{
+		background-size:80%,cover;
+		background-position: 300% bottom,left top;
+	}
+}
+#carouselExampleIndicators1
+{
+	overflow:hidden;
+	width:100%
+}
+#combo .card
+{
+	transition: all 0.3s;
+ background-color: var(--white);
+	 border: 2px dotted rgba(0,0,0,0.2);
+	border-radius: 30px
+	
+}
+#combo .card:hover h2 
+{ color:#fff;
+}
+#combo .card:hover
+{
+	background-color: var(--secondary);
+	color:#fff;
+	background-image: url("images/menu_grunge 1.png");
+    background-repeat: no-repeat;
+	background-position: center top;
+		padding-top:80px;
+	padding-bottom: 80px
+}
+#combo .card:hover >h3,
+#combo .card:hover >h2
+{color:#fff}
+#combo .card:hover img
+{
+	transform: scale(1.1);
+	transition: transform 0.5s ease;
+}
+#giaohang{
+	
+ background-image: url( "images/delivery_bike-min 1.png"),url( " images/delivery_image-min 1.png"),url( "images/delivery_bg 1.png"); 
+ background-position:  center 90%, right center, left top;
+ background-repeat: no-repeat;
+ background-size: 15%,12%, cover;
+}
+#giaohang  .btn-light:hover {
+background-color: var(--primary);
+  border-color: var(--primary); 
+  transform: translateY(-5px);
+	transition: all 0.3s ease 
+}
+#giaohang  .btn-light {
+	background-color: var(--secondary);
+	color: var(--white);
+	border: none;
+	transition: all 0.3 ease;
+	text-transform: uppercase;
+	border-radius: 1rem
+}
+.thanhphan
+{
+	background-image:url( "images/ingredient_image-min 1.png"),url( "images/ingredient_bg-1 1.png");
+	height: 1000px;
+	background-repeat: no-repeat;
+	background-position: center 65%, left top;
+}
+.line, .line1 {
+  height: 1px;
+  background-color: #444;
+}
+
+.line1 {
+  margin-top: 20px;
+}
+
+.line, .line1 {
+  height: 1px;
+  background-color: #444;
+}
+
+.line1 {
+  margin-top: 20px;
+}
+.thanhphan1
+{
+	background-image:url( "images/ingredient_bg-1 1.png");
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.mt-4 {
+    display: flex;
+    justify-content: flex-end; /* Đưa nút ĐỌC THÊM sang phải */
+}
+.line, .line1 {
+  height: 1px;
+  background-color: #444;
+}
+
+.line1 {
+  margin-top: 20px;
+}
+
+.delivery
+{
+	background-image:url("images/delivery_bike-min 1.png"), url("images/delivery_bg 1.png") ;
+	background-repeat:no-repeat,no-repeat;
+	background-position: center bottom;
+	height:700px;
+	width:100%,100%;
+	height:auto,auto
+		
+	
+}
+.large-image
+{
+	  width: 100%;
+  height: auto; /* Tự động điều chỉnh chiều cao để không bị méo */
+  object-fit: cover; /* Đảm bảo ảnh trông đẹp mắt */
+  border-radius: 8px; /* Tùy chọn: Bo góc ảnh */
+
+}
+.thanhphan h1 .thanhphan h3
+{
+	color: #fff
+}
+.burger-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+.burger-image {
+    position: absolute; 
+    top: 2%; 
+    left: 18%; 
+    width: 300px; 
+    z-index: 1; 
+}
+.burger-image1 {
+    position: absolute; 
+    top: 100%; 
+    left: 18%; 
+    width: 300px; 
+    z-index: 1; 
+}
+.burger-text {
+    position: absolute; 
+    top: 10%; 
+    left: 45%; 
+    width: 300px; 
+    z-index: 1; 
+}
+.burger-text2 {
+    position: absolute; 
+    top: 35%; 
+    left: 45%; 
+    width: 300px; 
+    z-index: 1; 
+}
+.burger-text3 {
+    position: absolute; 
+    top: 65%; 
+    left: 45%; 
+    width: 300px; 
+    z-index: 1; 
+}
+.burger-text4 {
+    position: absolute; 
+    top: 65%; 
+    left: 25%; 
+    width: 300px; 
+    z-index: 1; 
+}
+.burger-card {
+  flex: 1;
+  max-width: 300px;
+}
+
+.burger-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.thanhphan2
+{
+	background-image:url( " images/delivery_bg 1.png");
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.burger-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.burger-content {
+  flex: 0 0 500px; /* Đặt chiều rộng cố định */
+  height: 450px; /* Đặt chiều cao để tạo hình vuông */
+  text-align: center;
+  background-color: #fff;
+  padding: 20px; /* Giảm padding để nội dung không chiếm nhiều không gian */
+  border-radius: 20px; /* Bo góc nhẹ nhàng */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  display: flex; /* Canh giữa nội dung */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.burger-content button {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
